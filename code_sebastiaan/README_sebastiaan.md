@@ -1,13 +1,13 @@
 # README: Sebastiaan van Hassel Graduation thesis 2022
 
-This readme elaborates the software that is used for the graduation thesis of Sebastiaan van Hassel. In GitHub, a fork is made of the BSO-toolbox repository from TUe-excellent-buildings. In this fork, a new branch is created, called 'sebastiaan_changes', where all the necessary files are modified or added. During the graduation project, seven files of the BSO-toolbox v1.0.0 are modified and listed in this branch. Furthermore, the folder 'code_sebastiaan' includes all files written for the corresponding thesis. 
+This readme elaborates the software that is used for the graduation thesis of Sebastiaan van Hassel. In GitHub, a new repository, called 'MSc_2022_Hassel', is made in TUe-excellent-buildings. This repository contains the BSO-toolbox v1.0.0 with some files modified, and a new folder 'code_sebastiaan'. During the graduation project, seven files of the BSO-toolbox v1.0.0 are modified and these are already updated in this repository. Furthermore, the folder 'code_sebastiaan' includes all extra files written for the corresponding thesis. 
 
 The MSc thesis of Sebastiaan van Hassel [1] with title: "Machine learning and Genetic Algorithms for conformal geometries in design support systems", presents research on whether Machine Learning (ML) and Genetic Algorithms (GA) can be used to obtain a conformal geometry for BSDs. To optimise both building designs and their underlying design processes, design support systems exist. For domain specific analyses, these systems benefit from a conformal (CF) representation for the Building Spatial Design (BSD). In a conformal representation, for all entities: the vertices of an entity are, if intersecting an-other entity, only allowed to coincide with this other entity's vertices. 
 
 [1] van Hassel, S.J.F. (2022). *Machine learning and Genetic Algorithms for conformal geometries in design support systems.* (MSc thesis). Eindhoven, The Netherlands: Eindhoven University of Technology.
 
 
-## Modified C++ files in the BSO-toolbox v1.0.0
+## Modified files in the BSO-toolbox v1.0.0
 The BSO-toolbox repository from TUe-excellent-buildings is used in the graduation project of Sebastiaan van Hassel. Thereby, seven files of the BSO-toolbox v1.0.0 are modified. It concerns the following files with directories:
 1.   BSO-toolbox/bso/spatial_design/ms_building.cpp
 2.   BSO-toolbox/bso/spatial_design/ms_building.hpp
@@ -20,6 +20,8 @@ The BSO-toolbox repository from TUe-excellent-buildings is used in the graduatio
 The files, “ms_building.cpp”, “ms_building.hpp”, “ms_space.cpp”, and “ms_space.hpp”, are modified to include non-orthogonal designs in the toolbox.
 The files, “construction.cpp” and “structure.cpp”, are modified to solve error messages that occurred after the transfer to a new workstation. 
 The file, “quad_hexahedron.hpp”, is modified by the author, to the purpose of his thesis. 
+
+These files are already updated in the MSc_2022_Hassel repository.  
 
 ## C++ Code written by Sebastiaan for his Graduation thesis
 The code is related to the two research methods: Machine Learning (ML) and Genetic Algorithm (GA). The code is written in C++14 and uses external libraries in some of the files. An overview of all created C++ files is listed below. 
